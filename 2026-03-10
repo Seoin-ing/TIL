@@ -1,0 +1,12 @@
+## 오늘 한 것
+- @RestController, @GetMapping 개념 학습
+- /hello, /bye API 직접 만들기
+- 포트 충돌 해결 (lsof -i :8080, kill -9)
+
+## 배운 것
+- @RestController = @Controller + @ResponseBody 합친 것
+- @GetMapping("/경로") = 해당 경로로 GET 요청 오면 실행
+- public String = 문자열 반환 타입
+
+## 느낀 것
+- 생각보다 API 만드는 게 어렵지 않았다
