@@ -1,0 +1,13 @@
+## 오늘 한 것
+- Member 클래스 만들기
+- /member API로 JSON 응답 받기
+- @PathVariable로 URL에서 값 받아오기
+
+## 배운 것
+- Java 객체를 return하면 Spring이 자동으로 JSON으로 변환해줌
+- @PathVariable = URL 경로에서 값 받아오는 어노테이션
+- {"name":"박서인","age":27} 이게 JSON 형식
+
+## 느낀 것
+- Spring이 객체를 JSON으로 알아서 바꿔주는게 신기했다
+- URL로 값을 넘기는 게 생각보다 간단했다
