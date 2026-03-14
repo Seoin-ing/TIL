@@ -1,0 +1,16 @@
+## 오늘 한 것
+- Docker MySQL 컨테이너 연동
+- @Entity로 Member 테이블 생성
+- JpaRepository로 DB 저장/조회 구현
+- POST /member → DB 저장
+- GET /members → 전체 조회
+
+## 배운 것
+- @Entity = 이 클래스를 DB 테이블로 만들어줘
+- @Id, @GeneratedValue = ID 자동으로 1, 2, 3 증가
+- JpaRepository = DB 저장/조회를 자동으로 해주는 인터페이스
+- POST 요청은 브라우저로 못하고 curl이나 Postman으로 해야 함
+
+## 느낀 것
+- JpaRepository 한 줄로 저장/조회가 다 되는게 신기했다
+- DB에 실제로 저장되는 걸 보니까 뭔가 진짜 개발하는 느낌이 났다
