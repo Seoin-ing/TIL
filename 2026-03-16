@@ -1,0 +1,16 @@
+## 오늘 한 것
+- PUT /member/{id} → 회원 정보 수정 구현
+- DELETE /member/{id} → 회원 삭제 구현
+- CRUD 완성!
+
+## 배운 것
+- @PutMapping = 수정 요청 처리
+- @DeleteMapping = 삭제 요청 처리
+- orElseThrow() = 데이터 없으면 예외 던지기
+- curl -X PUT, curl -X DELETE 로 터미널에서 테스트 가능
+- CRUD = Create(저장) Read(조회) Update(수정) Delete(삭제)
+
+## 느낀 것
+- CRUD를 직접 다 만들어보니까 백엔드 구조가 이해되기 시작했다
+- 생각보다 삭제가 제일 간단했다
+- 이제 진짜 백엔드 개발자가 되는 느낌이 난다 🔥
